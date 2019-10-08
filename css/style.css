@@ -1,0 +1,89 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: Gotham Rounded, sans-serif;
+  font-weight: normal;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(to right, #00aaff, #00ff6c);
+}
+.container {
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+}
+.calculator {
+  width: 320px;
+  height: 550px;
+  background: black;
+  margin: 50px 35%;
+  top: 20px;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.calculator > button {
+  width: 60px;
+  height: 60px;
+  margin: 20px 0 0 15px;
+  float: left;
+  border-radius: 50%;
+  border-width: 0;
+  font-weight: bold;
+  font-size: 1.7em;
+  cursor: pointer;
+}
+
+.calculator > button:hover {
+  opacity: 0.8;
+}
+
+.span-two {
+  grid-column: span 2;
+}
+
+.output {
+  background-color: rgb(255, 255, 255);
+  padding: 8px;
+  margin-left: 30px;
+  margin-right: 30px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.output .previous-operand {
+  text-align: right;
+  height: 20px;
+  margin: 0 20px;
+  padding-top: 20px;
+  font-size: 1em;
+  color: #919191;
+}
+
+.output .current-operand {
+  text-align: right;
+  height: 60px;
+  margin: 10px 20px;
+  font-size: 2em;
+}
+
+.operator {
+  width: 50px;
+  height: 50px;
+  margin: 15px;
+  float: left;
+  border-radius: 50%;
+  border-width: 0;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.operator:focus,
+.number:focus,
+.empty:focus {
+  outline: 0;
+}
