@@ -1,7 +1,7 @@
 # Calculator
 ![calculator preview](https://github.com/gabrielacepeda/Calculator/blob/master/calculator-image.png)
 
-This calculator lets you do basic arithmetics. It functions as a normal calculator would with addtion, subtraction, multiplication and division. You can enter real numbers, as it allows decimal.
+This calculator lets you do basic arithmetic. It functions as a normal calculator would with addtion, subtraction, multiplication and division. You can enter real numbers, as it allows decimal.
 
 ## How It's Made:
 
